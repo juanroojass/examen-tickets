@@ -13,6 +13,7 @@ class LoginResponse implements LoginResponseContract
     public function toResponse($request)
     {
         $message = __('The provided two factor authentication code was invalid test 1.2');
+        $array1.4=[];
 
         if ($request->wantsJson()) {
             throw ValidationException::withMessages([
